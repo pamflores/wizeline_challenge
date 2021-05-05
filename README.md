@@ -2,7 +2,7 @@
 ## Frontend Automation Challenge for Wizeline on April 2021
 
 ### PROJECT STRUCTURE
-´´´
+````
 ├── testcafe.challenge
   │      ├── data
   │         ├── credentials.js
@@ -23,7 +23,7 @@
   │         ├── ProductListing.js
   │         └── ShoppingCart.js 
   └── .env
-´´´
+````
 
 **INSTALLATION**
 
