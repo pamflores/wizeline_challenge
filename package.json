@@ -1,0 +1,34 @@
+{
+  "name": "testcafe.challenge",
+  "version": "1.0.0",
+  "description": "Automation challenge for WizeLine",
+  "main": "",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./tests/",
+    "test:firefox": "testcafe firefox ./tests/",
+    "test:safari": "testcafe safari ./tests/",
+    "test:reports": "testcafe chrome ./tests/ --reporter html:reports/html/`date +%Y-%m-%m`/report.html",
+    "test:reports-allBrowsers": "testcafe all ./tests/ --reporter html:reports/html/`date +%Y-%m-%d_%H:%M:%S`/report.html",
+    "test:chrome-headless": "testcafe chrome:headless ./tests/ --reporter html:reports/html/`date +%Y-%m-%d_%H:%M:%S`.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pamflores/FEAutoCh_wizeline_apr21"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-plugin-testcafe": "^0.2.1",
+    "testcafe": "^1.12.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "bugs": {
+    "url": "https://github.com/pamflores/FEAutoCh_wizeline_apr21/issues"
+  },
+  "homepage": "https://github.com/pamflores/FEAutoCh_wizeline_apr21/blob/master/testcafe.challenge/README.md"
+}
